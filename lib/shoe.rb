@@ -7,7 +7,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
     # BRANDS << brand unless BRANDS.include?(brand)
-    BRANDS.to_set.to_a << brand
+    BRANDS.to_set << brand
   end
 
   def cobble
